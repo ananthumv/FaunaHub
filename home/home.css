@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#mainDiv{
+    width: 100vw;
+    height: 100svh;
+    overflow: auto;
+    /* background: radial-gradient(circle,transparent,transparent, black); */
+    background: rgba(2, 0, 0, 0.55);
+    color: rgb(248, 247, 247);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    z-index:2;
+}
+#mainDivBg{
+    background: radial-gradient(circle,transparent,transparent, black);
+    width: 100vw;
+    height: 100svh;
+    position: absolute;
+}
+
+#mainDivVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100svh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+
+#mainDiv h1{
+    font-size: 120px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+
+
+@media screen and (max-width: 1370px) {
+
+    #mainDiv{
+        width: 100vw;
+        height: 90svh; 
+    }
+    
+    #mainDivVideo{
+        width: 100vw;
+        height: 90svh; 
+        object-fit: cover;
+    }
+
+    #mainDivBg{
+        width: 100vw;
+        height: 90svh;
+    }
+   
+}
+
+
+@media screen and (max-width: 950px) {
+
+    #mainDiv{
+        width: 100vw;
+        height: 60svh; 
+    }
+    
+    #mainDivVideo{
+        width: 100vw;
+        height: 60svh; 
+        object-fit: cover;
+    }
+
+    #mainDivBg{
+        width: 100vw;
+        height: 60svh;
+    }
+   
+}
+
+
+@media screen and (max-width: 554px) {
+
+    #mainDiv{
+        width: 100vw;
+        height: 50svh; 
+    }
+
+    #mainDivVideo{
+        width: 100vw;
+        height: 50svh; 
+        object-fit: fill;
+    }
+
+    #mainDivBg{
+        width: 100vw;
+        height: 50svh;
+    }
+   
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+
+    #mainDiv{
+        width: 100vw;
+        height: 55svh; 
+    }
+
+    #mainDivVideo{
+        width: 100vw;
+        height: 55svh; 
+        object-fit: fill;
+    }
+
+    #mainDivBg{
+        width: 100vw;
+        height: 55svh;
+    }
+   
+}
+
+
+
