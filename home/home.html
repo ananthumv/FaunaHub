@@ -9,8 +9,19 @@
     <script src="../bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
+  
     <div>
-      <nav style="position: absolute;" class="container-fluid fs-3 pt-3 mt-4">
+
+      <!-- ------------Navbar------------- -->
+
+
+
+      <div>
+
+        <!-- <nav style="position: absolute;" class="container-fluid fs-3 pt-3 mt-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
         <div>
           <ul class="nav nav-fill justify-content-end">
               <li>
@@ -27,17 +38,106 @@
               </li>
           </ul>
         </div>
-      </nav>
-                
-            <div id="mainDiv" class="">
-              
-              <div id="mainDivBg"></div>
-              <video autoplay muted loop id="mainDivVideo">
-                  <source src="../assets/video/frog_-_108097 (Original).mp4" type="video/mp4">
-              </video>
-              <h1 class="mb-4 text-light">FaunaHub</h1>
-              <button type="button" class="z-2 btn btn-outline-light px-5 py-2 fs-3">Login</button>                
+        </nav> -->
+
+      
+
+
+      <nav style="position: absolute;" class="navbar navbar-expand-lg  container-fluid fs-4  pt-3 mt-4">
+
+        <div class="container-fluid">
+
+          <span class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+          </span>
+
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+
+              <ul class="nav nav-fill justify-content-end navbar-nav me-auto mb-2 mb-lg-0">
+                <li>
+                  <a class="nav-link text-light  " href="#">Home</a>
+                </li>
+                <li>
+                  <a class="nav-link text-light" href="#">Find Fauna</a>
+                </li>
+                <li>
+                  <a class="nav-link text-light" href="#">Cart</a>
+                </li>
+                <li>
+                  <a class="nav-link text-light me-5 " href="#">Events</a>
+                </li>
+             </ul>
+
+            </div>
           </div>
+
+        </div>
+
+      </nav>
+
+
+                
+      <div id="mainDiv" class="">
+        
+        <div id="mainDivBg"></div>
+
+          <video autoplay muted loop id="mainDivVideo">
+              <source src="../assets/video/frog_-_108097 (Original).mp4" type="video/mp4">
+          </video>
+
+          <h1 class="mb-4 text-light">FaunaHub</h1>
+
+          <button type="button" class="z-2 btn btn-outline-light px-3 py-1 fs-4">Login</button>   
+
+        </div>
+
+      </div>
+
+
+      <main>
+
+        <div>
+          <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div style="background-image:url(../assets/imgs/wp10837801-european-pine-marten-wallpapers.jpg);" class="carousel-item active carouselFact" data-bs-interval="3000">
+                <div class="carosalFactText">
+                  <p>Martens are known for their high-pitched vocalizations.</p>
+                </div>
+              </div>
+              <div style="background-image:url(../assets/imgs/439384.jpg);" class="carousel-item carouselFact" data-bs-interval="3000">
+                <div class="carosalFactText">
+                  <p>Mandarin duck pair bonds are very strong and they will return to the same mate if they survive.</p>
+                </div>
+              </div>
+              <div style="background-image:url(../assets/imgs/pexels-flickr-148119.jpg);" class="carousel-item carouselFact" data-bs-interval="3000">
+                <div class="carosalFactText">
+                  <p>Red pandas are the only living creatures in their family - Ailuridae.</p>
+                </div>
+              </div>
+              <div style="background-image:url(../assets/imgs/pexels-victor-pace-4257024.jpg);" class="carousel-item carouselFact" data-bs-interval="3000">
+                <div class="carosalFactText">
+                  <p>The world’s largest frog species is known as the ‘Goliath Frog’</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        
+      </main>
+
+
     </div>
 </body>
 </html>
