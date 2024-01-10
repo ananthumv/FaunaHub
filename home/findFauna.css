@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    margin: 0%;
+    color: rgb(26, 110, 7);
+}
+
+
+
+#navBtn{
+    border-radius: 8px;
+    background-color: rgb(5, 165, 18);
+    color: rgb(12, 36, 6);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+
+#inputMainDiv{
+    width: 100svw;
+    height: 70svh;
+    margin-top: 10svh;
+
+}
+
+#inputTxt{
+    width: 35svw;
+    height: 8svh;
+    margin: 5%;
+    border-radius: 8px;
+    background-color: black;
+    color: rgb(26, 110, 7);
+    font-size: 20px;
+    border: none;
+}
+
+#inputBtn{
+    width: 12svw;
+    height: 7svh;
+    border-radius: 8px;
+    background-color: rgb(5, 165, 18);
+    color: rgb(12, 36, 6);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+
+#inputMainDiv select{
+    width: 13svw;
+    height: 7svh;
+    background-color: black;
+    border: none;
+    margin: 2%;
+    border-radius: 8px;
+    padding: 4px;
+    padding-left: 15px;
+    color: rgb(26, 110, 7);
+    font-size: 18px;
+    font-weight: 600;
+}

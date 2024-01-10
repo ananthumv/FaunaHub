@@ -99,18 +99,18 @@
 
     #mainDiv{
         width: 100vw;
-        height: 90svh; 
+        height: 100svh; 
     }
     
     #mainDivVideo{
         width: 100vw;
-        height: 90svh; 
+        height: 100svh; 
         object-fit: cover;
     }
 
     #mainDivBg{
         width: 100vw;
-        height: 90svh;
+        height: 100svh;
     }
 
     .carouselFact,.carouselFactText{
